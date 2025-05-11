@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import Navbar from "./Navbar"
+import FloatingButton from "./FloatingButton"
 
 const Hero = () => {
     return (
@@ -15,7 +16,6 @@ const Hero = () => {
                     priority
                 />
             </div>
-
             <Navbar />
 
             <div className="container mx-auto px-4 pt-16 pb-12 sm:pt-20 sm:pb-16 md:pt-32 md:pb-24 relative z-10">
@@ -45,6 +45,7 @@ const Hero = () => {
                                 Contact Us
                             </Link>
                         </div>
+                        <FloatingButton />
                     </div>
 
                     {/* Image/Card Section */}

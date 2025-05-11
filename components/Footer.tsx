@@ -84,7 +84,7 @@ const Footer = () => {
                             >
                                 39/1, Chandar nagar,
                                 <br />
-                                Almabagh, Lucknow,
+                                Alambagh, Lucknow,
                                 <br />
                                 Uttar Pradesh, 226012
                             </a>
